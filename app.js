@@ -112,7 +112,6 @@ var cardTemplate = '<li class="card">'
     const starsStat = document.querySelector('.modal__stars');
     const stars = getStars();
 
-
     timeStat.innerHTML = `Time = ${clockTime}`;
     movesStat.innerHTML = `Moves = ${moves}` ;
     starsStat.innerHTML = `Stars = ${stars}`;
